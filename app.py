@@ -10,19 +10,19 @@ if day_of_week == "yes bro":
 else:
     print("incorrect") """
 
-# Pseudocode:
-# Ask the user to enter a sentence.
-# Define a function that accepts the sentence.
-# Split the sentence into a list of words.
-# Count the words in the list.
-# Return the word count.
-# Display the word count to the user.
+""" def add(words):
+    amountofwords = words.split()
+    return len(amountofwords)
+    
+
+words = input("Enter a sentence: ")
+print(f"That sentence has {add(words)} words.") """
 
 
-def y(sentence):
-    words = sentence.split()
-    return len(words)
+def number(x):
+    y = 79
+    if x == (1, 3, 5, 7, 9):
+        print("odd")
+    else: print("even")
 
-
-sentence = input("Enter a sentence: ")
-print(f"That sentence has {y(sentence)} words.")
+x = input("Enter a number: ")
