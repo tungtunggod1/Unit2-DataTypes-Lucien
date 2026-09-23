@@ -19,10 +19,25 @@ words = input("Enter a sentence: ")
 print(f"That sentence has {add(words)} words.") """
 
 
-def number(x):
-    y = 79
-    if x == (1, 3, 5, 7, 9):
-        print("odd")
-    else: print("even")
+""" def number(x):
+    if x % 2 == 0:
+        return "odd"
+    else:
+        return "even"
+x = int(input("Enter a number"))
+print(f"Your number is {number(x)}.") """
 
-x = input("Enter a number: ")
+""" def service(x):
+    if x == "great":
+        return "25%"
+    elif x == "good":
+        return "20%"
+    elif x == "okay":
+        return "15%"
+    elif x == "bad":
+        return "0%"
+    else:
+        return "as much as you want"
+x = str(input("How was your service. "))
+print(f"I will tip {service(x)}.") """
+
