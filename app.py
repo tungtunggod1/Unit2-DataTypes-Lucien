@@ -41,11 +41,11 @@ print(f"Your number is {number(x)}.") """
 x = str(input("How was your service. "))
 print(f"I will tip {service(x)}.") """
 
-""" def x(number):
+def x(number):
     factors = []
     for i in range(1, number + 1):
         if number % i == 0:
             factors.append(i)
     return factors
 number = int(input("Pick a number. "))
-print(f"The number's factors are{x(number)}.") """
+print(f"The number's factors are{x(number)}.")
