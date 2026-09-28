@@ -52,9 +52,12 @@ print(f"The number's factors are{x(number)}.") """
 
 def gcf(x, y):
     factors = []
-    for i in range(x, y):
+    for i in range(1, min(x, y) + 1):
         if x % i == 0 and y % i == 0:
             factors.append(i)
-        return factors
-    gcf = int(input("Pick 2 numbers. "))
-    print(f"The two number's greatest common factors are{gcf(x, y)}")
+    return max(factors)
+
+
+x = int(input("Pick a number: "))
+y = int(input("Pick another number: "))
+print(f"The two numbers' greatest common factor is {gcf(x, y)}.")
