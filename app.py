@@ -50,7 +50,7 @@ print(f"I will tip {service(x)}.") """
 number = int(input("Pick a number. "))
 print(f"The number's factors are{x(number)}.") """
 
-""" def gcf(x, y):
+def gcf(x, y):
     factors = []
     for i in range(1, min(x, y) + 1):
         if x % i == 0 and y % i == 0:
@@ -60,4 +60,4 @@ print(f"The number's factors are{x(number)}.") """
 
 x = int(input("Pick a number: "))
 y = int(input("Pick another number: "))
-print(f"The two numbers' greatest common factor is {gcf(x, y)}.") """
+print(f"The two numbers' greatest common factor is {gcf(x, y)}.")
