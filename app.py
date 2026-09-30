@@ -61,3 +61,4 @@ def gcf(x, y):
 x = int(input("Pick a number: "))
 y = int(input("Pick another number: "))
 print(f"The two numbers' greatest common factor is {gcf(x, y)}.")
+
